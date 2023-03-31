@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 :root {
-    --black: #242424;
+    --black: #3b383f;
     --white: #eee;
     --green: #016b39;
     --eerie-black: #071C18ff;
     --slate-gray: #6B8291ff;
     --cadet-gray: #95B1C1ff;
     --columbia-blue: #B5CDDAff;
-    --powder-blue: #A9BFCCff;
+    --powder-blue: #e3e1d4;
     --dark-green: #012919ff;
     --dark-green-2: #04281Eff;
     --cadet-gray-2: #859EADff;
@@ -19,7 +23,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
     text-transform: capitalize;
     transition: .4s all ease;
@@ -39,7 +43,7 @@ header {
     z-index: 1;
 }
 
-/* SIDE NAVIGATION */
+/********** SIDE NAVIGATION **********/
 .side-nav {
     height: 100%;
     width: 0;
@@ -114,7 +118,8 @@ header {
 }
 
 .logo {
-    width: 50%;
+    width: 30%;
+    margin-left: 1.6rem;
 }
 
 .link-item {
@@ -154,6 +159,7 @@ header {
     background: var(--white);
 }
 
+/********** HERO **********/
 .hero {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/images/sports-collage.png"); */
 
@@ -180,22 +186,31 @@ header {
 }
 
 .hero-title {
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-family: 'Archivo Black', sans-serif;
+    max-width: 200px;
+    line-height: 5rem;
     letter-spacing: 5px;
     text-shadow: 0 3px 3px 0 rgba(0, 0, 0, .9);
+    margin-bottom: 1rem;
 }
 
 .hero-title span {
-    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .sub-title {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Alkatra', cursive;
     letter-spacing: 2.5px;
     text-shadow: 0 3px 3px 0 rgba(0, 0, 0, .9);
 }
 
 .sub-title span {
+    font-family: 'Alkatra', cursive;
     font-weight: 600;
     font-size: 1.2rem;
 }
@@ -246,6 +261,7 @@ header {
 .about-img {
     width: 100%;
     box-shadow: var(--shadow);
+    border-radius: 12px;
 }
 
 .about-content {
@@ -284,8 +300,13 @@ header {
     margin-top: 1.5rem;
 }
 
+.contact-img-container {
+    text-align: center;
+    padding: 1.5rem;
+}
+
 .contact-img {
-    width: 100%;
+    width: 40%;
 }
 
 .form-container {
