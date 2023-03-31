@@ -51,9 +51,9 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    background: #2e2e2e;
-    box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, .9);
-    opacity: .99;
+    background: var(--black);
+    box-shadow: 0 2rem 4rem 0 rgba(0, 0, 0, .9);
+    opacity: .98;
     overflow-x: hidden;
     padding-top: 60px;
 }
@@ -100,16 +100,20 @@ header {
 .open-side-menu {
     border: none;
     background: none;
+    color: var(--white);
     font-size: 1.7rem;
-    border-radius: 99px;
 }
 
 .open-side-menu a {
     color: var(--white);
     padding: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 99px;
+    /* clip-path: circle(50% at 50% 50%); */
 }
 
-.open-side-menu:hover {
+.open-side-menu a:hover {
     background: var(--white);
 }
 
@@ -177,12 +181,10 @@ header {
 
 .hero-text {
     color: var(--white);
-    font-size: 2rem;
     font-weight: 800;
     max-width: 600px;
     margin: auto;
     margin-left: 6rem;
-    text-align: right;
 }
 
 .hero-title {
@@ -281,7 +283,7 @@ header {
 } 
 
 .read-more {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: 12px;
     width: 210px;
     font-size: 1.2rem;
