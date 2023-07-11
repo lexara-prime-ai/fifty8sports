@@ -5,6 +5,6 @@ UI for Fifty8 Sports Website
 
 ## Preview
 
-![preview](https://github.com/projectfinalaudio/fifty8sports/blob/master/home.png?raw=true)
+![preview](https://github.com/projectfinalaudio/fifty8sports/blob/master/previews/home.png)
 
-![preview](https://github.com/projectfinalaudio/fifty8sports/blob/master/about.png?raw=true)
+![preview](https://github.com/projectfinalaudio/fifty8sports/blob/master/previews/about.png)
