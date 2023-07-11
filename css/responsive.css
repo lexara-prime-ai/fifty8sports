@@ -76,6 +76,17 @@
     }
 }
 
+@media (max-width: 768px) {
+    .about {
+        margin-top: 11rem;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 70%;
+    }
+}
+
 @media (max-width: 500px) {
     .logo {
         width: 60%;
@@ -114,6 +125,10 @@
         margin: 1rem;
     }
 
+    .about-img {
+        width: 100%;
+    }
+
     .text {
         margin: 0;
     }
@@ -122,7 +137,22 @@
         max-width: 300px;
     }
 
-    input, textarea, .submit-btn {
+    input,
+    textarea,
+    .submit-btn {
         max-width: 240px;
+    }
+}
+
+@media (max-width: 425px) {
+    .about {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 376px) {
+    .about {
+        padding: 1rem 0;
+        font-size: .8rem;
     }
 }
